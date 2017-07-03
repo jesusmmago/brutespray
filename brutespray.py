@@ -71,6 +71,8 @@ class tabCompleter(object):
 def interactive():
     t = tabCompleter()
     singluser = ""
+    customword = ""
+    
     if args.interactive is True:
         print colors.white + "\n\nWelcome to interactive mode!\n\n" + colors.normal
         print colors.red + "WARNING:" + colors.white + " Leaving an option blank will leave it empty and refer to default\n\n" + colors.normal
